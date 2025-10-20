@@ -16,7 +16,6 @@ const Footer = () => {
     handleSubmit,
     register,
     formState: { errors },
-    trigger,
   } = useForm();
   const onsubmit = (data, e) => {
     console.log(data);
@@ -43,7 +42,7 @@ const Footer = () => {
             <h1>Address:</h1>
           </Slide>
           <Slide direction="left">
-            <p>House No B-191 shamansoor town swabi</p>
+            <p>Emser strasse,328, 56076 koblenz</p>
           </Slide>
         </div>
         <div className="links">
@@ -55,7 +54,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="/">+92 332 97 61098</a>
+              <a href="/">+491629525018</a>
             </Slide>
           </div>
           <div>

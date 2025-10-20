@@ -6,7 +6,7 @@ import khwateenwebsite from "../../Assets/khwateen.png";
 import charj from "../../Assets/charj.png";
 import facebook from "../../Assets/facebook.png";
 import food from "../../Assets/food.png";
-import dubai from "../../Assets/dubai.png";
+
 import weather from "../../Assets/weather.png";
 import netflix from "../../Assets/Netflix.png";
 import styled from "styled-components";

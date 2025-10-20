@@ -5,10 +5,8 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 import { BsFacebook } from "react-icons/bs";
-import profilepic from "../../Assets/pic.jpg";
-import pic from "../../Assets/Picture.png";
-import pic2 from "../../Assets/pic2.png";
-import pic3 from "../../Assets/pic3.png";
+
+import pic2 from "../../Assets/hamza_profile_pic2.png";
 const ProfComponent = () => {
   return (
     <Container id="home">
@@ -61,9 +59,21 @@ const ProfComponent = () => {
         </Texts>
       </Slide>
       <Slide direction="right" id="righta">
-        <div id="righta" style={{ display: "flex", justifyContent: "center" }}>
-          <Profile>
-            <img src={pic3} alt="profile" />
+        <div
+          id="righta"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <Profile
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img src={pic2} alt="profile" />
           </Profile>
         </div>
       </Slide>
@@ -211,17 +221,17 @@ const Profile = styled.div`
     height: 27rem;
   }
   @media (max-width: 1180px) {
-    width: 16rem;
+    width: 18rem;
     height: 25rem;
   }
 
   img {
-    top: 20px;
+    top: px;
 
     z-index: 2;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+    width: 490px;
+    height: 490px;
+
     object-fit: contain;
     filter: drop-shadow(0px 10px 10px #01be9570);
     transition: transform 400ms ease-in-out;
